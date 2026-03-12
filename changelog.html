@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Changelog – AboRadar</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'abo-bg': '#08090D',
+            'abo-card': '#111318',
+            'abo-card-alt': '#1A1D27',
+            'abo-accent': '#00E89D',
+            'abo-warning': '#FF5C5C',
+            'abo-orange': '#FF9F43',
+            'abo-blue': '#4DA6FF',
+            'abo-text': '#F0F2F5',
+            'abo-text-soft': '#9BA3B5',
+            'abo-text-muted': '#5A6178',
+            'abo-border': '#2A2E3F',
+          },
+          fontFamily: {
+            'display': ['Outfit', 'sans-serif'],
+            'body': ['DM Sans', 'sans-serif'],
+            'mono': ['JetBrains Mono', 'monospace'],
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-abo-bg text-abo-text font-body antialiased">
+  <!-- Header -->
+  <header class="border-b border-abo-border">
+    <div class="max-w-4xl mx-auto px-4 md:px-6 h-16 flex items-center">
+      <a href="index.html" class="font-display font-extrabold text-xl">
+        Abo<span class="text-abo-accent">Radar</span><span class="text-abo-text-muted text-sm font-normal">.app</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 md:px-6 py-12 md:py-16">
+    <div class="mb-10">
+      <h1 class="font-display font-extrabold text-3xl md:text-4xl mb-3">Changelog</h1>
+      <p class="text-abo-text-soft text-lg">Alle Updates und Verbesserungen an AboRadar.</p>
+    </div>
+
+    <div class="space-y-6">
+
+      <!-- v0.1.0 -->
+      <article class="bg-abo-card rounded-2xl border border-abo-border p-6 md:p-8">
+        <div class="flex flex-wrap items-center gap-3 mb-4">
+          <span class="font-mono font-bold text-sm bg-abo-accent/15 text-abo-accent px-3 py-1 rounded-full">v0.1.0</span>
+          <span class="text-abo-text-muted text-sm">12. März 2026</span>
+          <span class="text-xs bg-abo-accent/15 text-abo-accent px-2.5 py-0.5 rounded-full font-medium">Alpha</span>
+        </div>
+        <h2 class="font-display font-bold text-xl mb-4">Erste Alpha-Version</h2>
+        <ul class="space-y-2 text-abo-text-soft text-sm">
+          <li class="flex items-start gap-2">
+            <span class="text-abo-accent mt-0.5">●</span>
+            <span><strong class="text-abo-text">Dashboard</strong> – KPI-Karten (Monatliche Kosten, Verschwendung, Jahreskosten, Aktive Abos), personalisierte Begrüßung</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-abo-accent mt-0.5">●</span>
+            <span><strong class="text-abo-text">Abo-Tracker</strong> – Abos hinzufügen, bearbeiten, löschen. Suche und Filter (Alle/Aktiv/Ungenutzt/Gekündigt)</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-abo-accent mt-0.5">●</span>
+            <span><strong class="text-abo-text">Abo-Finder</strong> – Checkliste zum Aufspüren versteckter Abos (Kontoauszüge, E-Mail, App-Stores, Kategorien)</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-abo-accent mt-0.5">●</span>
+            <span><strong class="text-abo-text">Cloud-Sync</strong> – Supabase-Backend mit PostgreSQL, Row Level Security, automatische Synchronisierung</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-abo-accent mt-0.5">●</span>
+            <span><strong class="text-abo-text">Auth</strong> – Login & Registrierung mit E-Mail/Passwort, Session-Management</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-abo-accent mt-0.5">●</span>
+            <span><strong class="text-abo-text">Web-UI</strong> – Desktop-Sidebar, responsive Layout, Lucide Icons, Dark Theme</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-abo-accent mt-0.5">●</span>
+            <span><strong class="text-abo-text">Einstellungen</strong> – Konto-Übersicht, Sync-Status, CSV-Export, Abmeldung</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-abo-accent mt-0.5">●</span>
+            <span><strong class="text-abo-text">Landing Page</strong> – SEO-optimiert, Warteliste, Freebie-Download, DSGVO-konform</span>
+          </li>
+        </ul>
+      </article>
+
+      <!-- Template für zukünftige Einträge (auskommentiert) -->
+      <!--
+      <article class="bg-abo-card rounded-2xl border border-abo-border p-6 md:p-8">
+        <div class="flex flex-wrap items-center gap-3 mb-4">
+          <span class="font-mono font-bold text-sm bg-abo-accent/15 text-abo-accent px-3 py-1 rounded-full">v0.2.0</span>
+          <span class="text-abo-text-muted text-sm">TT. Monat JJJJ</span>
+          <span class="text-xs bg-abo-accent/15 text-abo-accent px-2.5 py-0.5 rounded-full font-medium">Feature</span>
+          oder: bg-abo-orange/15 text-abo-orange = "Verbesserung"
+          oder: bg-abo-blue/15 text-abo-blue = "Fix"
+          oder: bg-abo-warning/15 text-abo-warning = "Breaking"
+        </div>
+        <h2 class="font-display font-bold text-xl mb-4">Release-Titel</h2>
+        <ul class="space-y-2 text-abo-text-soft text-sm">
+          <li class="flex items-start gap-2">
+            <span class="text-abo-accent mt-0.5">●</span>
+            <span><strong class="text-abo-text">Feature-Name</strong> – Beschreibung</span>
+          </li>
+        </ul>
+      </article>
+      -->
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-abo-border">
+    <div class="max-w-4xl mx-auto px-4 md:px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-abo-text-muted">
+      <a href="index.html" class="hover:text-abo-text transition-colors">&larr; Zurück zur Startseite</a>
+      <div class="flex gap-6">
+        <a href="features.html" class="hover:text-abo-text transition-colors">Funktionen</a>
+        <a href="changelog.html" class="text-abo-accent">Changelog</a>
+        <a href="marketing.html" class="hover:text-abo-text transition-colors">Marketing</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
