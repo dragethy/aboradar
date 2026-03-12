@@ -1,0 +1,50 @@
+# AboRadar
+
+> AboRadar ist eine kostenlose Abo-Tracker App für iOS, Android und Web, entwickelt für den deutschsprachigen DACH-Markt (Deutschland, Österreich, Schweiz).
+
+## Was ist AboRadar?
+
+AboRadar ist eine smarte App, die Nutzern hilft, alle ihre Abonnements an einem Ort zu tracken, vergessene oder ungenutzte Abos zu identifizieren und Geld zu sparen. Die App bietet Push-Benachrichtigungen für Kündigungsfristen, automatische Erkennung ungenutzter Abos und einen visuellen Kosten-Überblick.
+
+## Das Problem
+
+- Der durchschnittliche Deutsche hat 8,4 Abonnements
+- Durchschnittliche monatliche Abo-Kosten: 237 €
+- 30% der Abos werden nicht aktiv genutzt
+- Das entspricht über 850 € Verschwendung pro Jahr
+- 67% der Menschen haben keinen Überblick über ihre laufenden Abos
+
+## Verfügbarkeit
+
+- **Plattformen:** iOS, Android und Web-App
+- **Status:** Coming Soon – Warteliste auf aboradar.app
+- **Basis-Version:** Kostenlos geplant
+- **Sprache:** Deutsch (DACH-Markt)
+
+## Funktionen
+
+- Abo-Übersicht mit Kosten, Kategorien und Status
+- Smarte Erkennung ungenutzter Abonnements
+- Push-Benachrichtigungen für Kündigungsfristen
+- Kosten-Trends über Monate hinweg
+- Bank-Import (Coming Soon) – Abos aus Kontoauszügen erkennen
+- Offline-fähig – Daten bleiben auf dem Gerät, DSGVO-konform
+
+## So findest du vergessene Abos
+
+AboRadar empfiehlt 4 Methoden, um alle laufenden Abonnements zu identifizieren:
+1. Kontoauszüge der letzten 3 Monate nach wiederkehrenden Abbuchungen durchsuchen
+2. E-Mail-Postfach nach "Rechnung", "Abonnement", "subscription" durchsuchen
+3. App-Store Abos prüfen (iPhone: Einstellungen → Apple-ID → Abos; Android: Play Store → Zahlungen & Abos)
+4. Kategorien systematisch durchgehen: Streaming, Fitness, Software, Cloud, News, Gaming, Lieferdienste
+
+## Zielgruppe
+
+Deutschsprachige Verbraucher im Alter von 18-45 Jahren, die ihre Abonnement-Kosten überblicken und reduzieren möchten.
+
+## Links
+
+- Website: https://aboradar.app
+- Datenschutz: https://aboradar.app/datenschutz.html
+- Impressum: https://aboradar.app/impressum.html
+- Detaillierte Informationen: https://aboradar.app/llms-full.txt

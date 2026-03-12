@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <!-- Main accent gradient -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00FFB0"/>
+      <stop offset="100%" stop-color="#00C98A"/>
+    </linearGradient>
+    <!-- Sweep fill gradient -->
+    <linearGradient id="sweep" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#00E89D" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00E89D" stop-opacity="0.02"/>
+    </linearGradient>
+    <!-- Glow effect -->
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#00E89D" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00E89D" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Ripple gradient -->
+    <linearGradient id="ripple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E89D" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00E89D" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00E89D" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Clip for inner content -->
+    <clipPath id="circle-clip">
+      <circle cx="256" cy="256" r="234"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background circle with subtle border -->
+  <circle cx="256" cy="256" r="240" fill="#0A0B10"/>
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#00E89D" stroke-width="2" stroke-opacity="0.15"/>
+  <circle cx="256" cy="256" r="237" fill="none" stroke="#1A1D27" stroke-width="1.5"/>
+
+  <!-- Subtle ambient glow -->
+  <circle cx="256" cy="220" r="200" fill="url(#glow)"/>
+
+  <g clip-path="url(#circle-clip)">
+    <!-- Radar rings (konzentrische Kreise) -->
+    <circle cx="256" cy="248" r="185" fill="none" stroke="#00E89D" stroke-width="1.2" stroke-opacity="0.08"/>
+    <circle cx="256" cy="248" r="140" fill="none" stroke="#00E89D" stroke-width="1.2" stroke-opacity="0.14"/>
+    <circle cx="256" cy="248" r="95" fill="none" stroke="#00E89D" stroke-width="1.5" stroke-opacity="0.22"/>
+    <circle cx="256" cy="248" r="50" fill="none" stroke="#00E89D" stroke-width="1.5" stroke-opacity="0.32"/>
+
+    <!-- Crosshair lines (subtle) -->
+    <line x1="60" y1="248" x2="452" y2="248" stroke="#00E89D" stroke-width="0.5" stroke-opacity="0.06"/>
+    <line x1="256" y1="55" x2="256" y2="441" stroke="#00E89D" stroke-width="0.5" stroke-opacity="0.06"/>
+
+    <!-- Radar sweep (Scan-Bereich) -->
+    <path d="M256 248 L256 63 A185 185 0 0 1 416 148 Z" fill="url(#sweep)"/>
+
+    <!-- Scan line (Hauptlinie) -->
+    <line x1="256" y1="248" x2="416" y2="148" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- === Kalender-Symbol (groesser, bolder fuer kleine Sizes) === -->
+    <g transform="translate(256, 248)">
+      <!-- Kalender-Body mit filled Background -->
+      <rect x="-38" y="-28" width="76" height="66" rx="10" ry="10" fill="#0A0B10" stroke="#00E89D" stroke-width="4" opacity="1"/>
+      <!-- Kalender-Top-Leiste (filled) -->
+      <rect x="-38" y="-28" width="76" height="20" rx="10" ry="10" fill="#00E89D" opacity="0.2"/>
+      <line x1="-38" y1="-8" x2="38" y2="-8" stroke="#00E89D" stroke-width="2.5" opacity="0.6"/>
+      <!-- Kalender-Clips oben (dicker) -->
+      <line x1="-16" y1="-38" x2="-16" y2="-20" stroke="#00E89D" stroke-width="5" stroke-linecap="round" opacity="1"/>
+      <line x1="16" y1="-38" x2="16" y2="-20" stroke="#00E89D" stroke-width="5" stroke-linecap="round" opacity="1"/>
+      <!-- Kalender-Inhalt: Euro-Zeichen (bold, groesser) -->
+      <text x="0" y="24" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="900" fill="#00E89D" opacity="0.95">&#8364;</text>
+    </g>
+
+    <!-- === Detected Subscription Blips === -->
+    <!-- Aktives Abo (gruen, prominent) -->
+    <circle cx="340" cy="140" r="9" fill="#00E89D" opacity="0.9"/>
+    <circle cx="340" cy="140" r="16" fill="none" stroke="#00E89D" stroke-width="2" opacity="0.4"/>
+
+    <!-- Weiteres Abo -->
+    <circle cx="180" cy="145" r="7" fill="#00E89D" opacity="0.5"/>
+
+    <!-- Ungenutztes/teures Abo (rot = Warnung) -->
+    <circle cx="165" cy="340" r="8" fill="#FF5C5C" opacity="0.8"/>
+    <circle cx="165" cy="340" r="15" fill="none" stroke="#FF5C5C" stroke-width="2" opacity="0.35"/>
+
+    <!-- Weiterer Blip -->
+    <circle cx="355" cy="310" r="6" fill="#4DA6FF" opacity="0.55"/>
+
+    <!-- === Ripple/Wellen am unteren Rand === -->
+    <ellipse cx="256" cy="440" rx="140" ry="8" fill="none" stroke="url(#ripple)" stroke-width="1.5"/>
+    <ellipse cx="256" cy="455" rx="110" ry="6" fill="none" stroke="url(#ripple)" stroke-width="1" opacity="0.6"/>
+    <ellipse cx="256" cy="468" rx="80" ry="4" fill="none" stroke="url(#ripple)" stroke-width="0.8" opacity="0.3"/>
+  </g>
+</svg>

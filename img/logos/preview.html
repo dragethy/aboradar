@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AboRadar Logo Preview</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #08090D; color: #F0F2F5; font-family: 'Outfit', system-ui, sans-serif; padding: 40px; }
+    h1 { text-align: center; font-size: 28px; margin-bottom: 40px; color: #00E89D; }
+    h2 { font-size: 18px; color: #9BA3B5; margin-bottom: 16px; font-weight: 600; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; max-width: 1200px; margin: 0 auto; }
+    .card { background: #111318; border: 1px solid #2A2E3F; border-radius: 16px; padding: 32px; text-align: center; }
+    .card img { max-width: 100%; height: auto; }
+    .icon-preview { width: 200px; height: 200px; margin: 0 auto 16px; }
+    .icon-small { display: flex; gap: 20px; justify-content: center; align-items: center; margin-top: 20px; }
+    .icon-small img { border-radius: 20%; }
+    .full-width { grid-column: 1 / -1; }
+    .sizes { display: flex; gap: 24px; align-items: flex-end; justify-content: center; flex-wrap: wrap; }
+    .sizes div { text-align: center; }
+    .sizes span { display: block; margin-top: 8px; font-size: 12px; color: #5A6178; }
+    .bg-white { background: #F5F5F5; border-radius: 12px; padding: 24px; margin-top: 16px; }
+    .bg-gradient { background: linear-gradient(135deg, #0B6E4F, #08090D); border-radius: 12px; padding: 24px; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <h1>AboRadar Logo Preview</h1>
+
+  <div class="grid">
+    <!-- Icon on dark -->
+    <div class="card">
+      <h2>Logo Icon (Dark Background)</h2>
+      <div class="icon-preview">
+        <img src="logo-icon.svg" alt="Logo Icon" width="200" height="200">
+      </div>
+      <div class="icon-small">
+        <div><img src="logo-icon.svg" width="96" height="96"><br><span style="font-size:11px;color:#5A6178">96px</span></div>
+        <div><img src="logo-icon.svg" width="64" height="64"><br><span style="font-size:11px;color:#5A6178">64px</span></div>
+        <div><img src="logo-icon.svg" width="48" height="48"><br><span style="font-size:11px;color:#5A6178">48px</span></div>
+        <div><img src="logo-icon.svg" width="32" height="32"><br><span style="font-size:11px;color:#5A6178">32px</span></div>
+        <div><img src="logo-icon.svg" width="16" height="16"><br><span style="font-size:11px;color:#5A6178">16px</span></div>
+      </div>
+    </div>
+
+    <!-- Icon as App Icon -->
+    <div class="card">
+      <h2>App Icon Simulation</h2>
+      <div class="sizes">
+        <div>
+          <img src="logo-icon.svg" width="120" height="120" style="border-radius: 26px;">
+          <span>iOS App Icon</span>
+        </div>
+        <div>
+          <img src="logo-icon.svg" width="120" height="120" style="border-radius: 20%;">
+          <span>Android</span>
+        </div>
+        <div>
+          <img src="logo-icon.svg" width="48" height="48" style="border-radius: 12px;">
+          <span>Favicon</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Full logo dark -->
+    <div class="card full-width">
+      <h2>Logo + Wortmarke (Dark)</h2>
+      <img src="logo-full.svg" alt="Full Logo" style="max-width: 500px;">
+      <div class="bg-gradient" style="margin-top: 24px;">
+        <img src="logo-full.svg" alt="Full Logo on Gradient" style="max-width: 500px;">
+      </div>
+    </div>
+
+    <!-- Comparison with Gemini -->
+    <div class="card full-width">
+      <h2>Alle Gr&ouml;&szlig;en im &Uuml;berblick</h2>
+      <div class="sizes" style="padding: 20px 0;">
+        <div>
+          <img src="logo-icon.svg" width="180" height="180">
+          <span>180px</span>
+        </div>
+        <div>
+          <img src="logo-icon.svg" width="120" height="120">
+          <span>120px</span>
+        </div>
+        <div>
+          <img src="logo-icon.svg" width="80" height="80">
+          <span>80px</span>
+        </div>
+        <div>
+          <img src="logo-icon.svg" width="48" height="48">
+          <span>48px</span>
+        </div>
+        <div>
+          <img src="logo-icon.svg" width="32" height="32">
+          <span>32px</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E89D"/>
+      <stop offset="100%" stop-color="#00B87A"/>
+    </linearGradient>
+    <linearGradient id="g1b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00E89D" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00E89D" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#08090D"/>
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#2A2E3F" stroke-width="2"/>
+
+  <!-- Radar rings -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#00E89D" stroke-width="1.5" stroke-opacity="0.15"/>
+  <circle cx="256" cy="256" r="130" fill="none" stroke="#00E89D" stroke-width="1.5" stroke-opacity="0.25"/>
+  <circle cx="256" cy="256" r="80" fill="none" stroke="#00E89D" stroke-width="1.5" stroke-opacity="0.4"/>
+
+  <!-- Radar sweep (pie slice) -->
+  <path d="M256 256 L256 76 A180 180 0 0 1 411.6 166.2 Z" fill="url(#g1b)"/>
+
+  <!-- Scan line -->
+  <line x1="256" y1="256" x2="411.6" y2="166.2" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Center dot -->
+  <circle cx="256" cy="256" r="8" fill="#00E89D"/>
+  <circle cx="256" cy="256" r="14" fill="none" stroke="#00E89D" stroke-width="2" stroke-opacity="0.5"/>
+
+  <!-- Detected subscription dots (blips on radar) -->
+  <circle cx="310" cy="170" r="7" fill="#00E89D" opacity="0.9"/>
+  <circle cx="310" cy="170" r="14" fill="none" stroke="#00E89D" stroke-width="1.5" opacity="0.4"/>
+
+  <circle cx="200" cy="160" r="5" fill="#00E89D" opacity="0.5"/>
+  <circle cx="350" cy="230" r="5" fill="#00E89D" opacity="0.6"/>
+  <circle cx="170" cy="300" r="5" fill="#FF5C5C" opacity="0.7"/>
+  <circle cx="170" cy="300" r="12" fill="none" stroke="#FF5C5C" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Euro symbol in center area -->
+  <text x="256" y="270" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#00E89D" opacity="0.3">
+  </text>
+</svg>

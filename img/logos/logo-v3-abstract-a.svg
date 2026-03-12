@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E89D"/>
+      <stop offset="60%" stop-color="#00C98A"/>
+      <stop offset="100%" stop-color="#00A070"/>
+    </linearGradient>
+    <linearGradient id="g3glow" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#00E89D" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00E89D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="#08090D"/>
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#2A2E3F" stroke-width="2"/>
+
+  <!-- Abstract "A" shape formed by radar arcs -->
+  <!-- Left leg of A -->
+  <path d="M160 400 L256 110 L260 110" stroke="url(#g3)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Right leg of A -->
+  <path d="M260 110 L352 400" stroke="url(#g3)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Crossbar as radar wave arcs -->
+  <path d="M200 300 Q256 260 312 300" stroke="#00E89D" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <path d="M180 330 Q256 275 332 330" stroke="#00E89D" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M165 358 Q256 290 347 358" stroke="#00E89D" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.25"/>
+
+  <!-- Signal dot at peak -->
+  <circle cx="256" cy="100" r="10" fill="#00E89D"/>
+  <circle cx="256" cy="100" r="18" fill="none" stroke="#00E89D" stroke-width="2" opacity="0.4"/>
+  <circle cx="256" cy="100" r="28" fill="none" stroke="#00E89D" stroke-width="1.5" opacity="0.2"/>
+
+  <!-- Small accent dots -->
+  <circle cx="176" cy="360" r="5" fill="#00E89D" opacity="0.3"/>
+  <circle cx="336" cy="360" r="5" fill="#00E89D" opacity="0.3"/>
+</svg>

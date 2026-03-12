@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressum – AboRadar</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'abo-bg': '#08090D',
+            'abo-card': '#111318',
+            'abo-accent': '#00E89D',
+            'abo-text': '#F0F2F5',
+            'abo-text-soft': '#9BA3B5',
+            'abo-text-muted': '#5A6178',
+            'abo-border': '#2A2E3F',
+          },
+          fontFamily: {
+            'display': ['Outfit', 'sans-serif'],
+            'body': ['DM Sans', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-abo-bg text-abo-text font-body antialiased">
+  <!-- Header -->
+  <header class="border-b border-abo-border">
+    <div class="max-w-4xl mx-auto px-4 md:px-6 h-16 flex items-center">
+      <a href="index.html" class="font-display font-extrabold text-xl">
+        Abo<span class="text-abo-accent">Radar</span><span class="text-abo-text-muted text-sm font-normal">.app</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 md:px-6 py-12 md:py-16">
+    <h1 class="font-display font-extrabold text-3xl md:text-4xl mb-8">Impressum</h1>
+
+    <div class="space-y-8 text-abo-text-soft text-sm leading-relaxed">
+
+      <section>
+        <h2 class="font-display font-bold text-lg text-abo-text mb-3">Angaben gemäß § 5 TMG</h2>
+        <p>
+          [DEIN VOLLSTÄNDIGER NAME]<br>
+          [STRASSE UND HAUSNUMMER]<br>
+          [PLZ ORT]<br>
+          [LAND]
+        </p>
+      </section>
+
+      <section>
+        <h2 class="font-display font-bold text-lg text-abo-text mb-3">Kontakt</h2>
+        <p>
+          E-Mail: [DEINE E-MAIL-ADRESSE]<br>
+          Telefon: [DEINE TELEFONNUMMER] <span class="text-abo-text-muted">(optional)</span>
+        </p>
+      </section>
+
+      <section>
+        <h2 class="font-display font-bold text-lg text-abo-text mb-3">Umsatzsteuer-ID</h2>
+        <p>
+          Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br>
+          [DEINE UST-IDNR] <span class="text-abo-text-muted">(falls vorhanden)</span>
+        </p>
+      </section>
+
+      <section>
+        <h2 class="font-display font-bold text-lg text-abo-text mb-3">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+        <p>
+          [DEIN VOLLSTÄNDIGER NAME]<br>
+          [ADRESSE WIE OBEN]
+        </p>
+      </section>
+
+      <section>
+        <h2 class="font-display font-bold text-lg text-abo-text mb-3">Haftungsausschluss</h2>
+
+        <h3 class="font-display font-bold text-sm text-abo-text mb-2 mt-4">Haftung für Inhalte</h3>
+        <p>
+          Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit,
+          Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.
+          Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten
+          nach den allgemeinen Gesetzen verantwortlich.
+        </p>
+
+        <h3 class="font-display font-bold text-sm text-abo-text mb-2 mt-4">Haftung für Links</h3>
+        <p>
+          Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen
+          Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
+          Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der
+          Seiten verantwortlich.
+        </p>
+
+        <h3 class="font-display font-bold text-sm text-abo-text mb-2 mt-4">Urheberrecht</h3>
+        <p>
+          Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen
+          dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art
+          der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen
+          Zustimmung des jeweiligen Autors bzw. Erstellers.
+        </p>
+      </section>
+
+      <section>
+        <p class="text-abo-text-muted text-xs">Stand: März 2026</p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-abo-border">
+    <div class="max-w-4xl mx-auto px-4 md:px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-abo-text-muted">
+      <a href="index.html" class="hover:text-abo-text transition-colors">&larr; Zurück zur Startseite</a>
+      <div class="flex gap-6">
+        <a href="datenschutz.html" class="hover:text-abo-text transition-colors">Datenschutz</a>
+        <a href="impressum.html" class="text-abo-accent">Impressum</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

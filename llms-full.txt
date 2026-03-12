@@ -1,0 +1,152 @@
+# AboRadar – Vollständige Produktinformation
+
+> AboRadar ist eine kostenlose Abo-Tracker App für iOS, Android und Web, entwickelt für den deutschsprachigen DACH-Markt. Sie hilft Verbrauchern, vergessene Abonnements zu finden und hunderte Euro pro Jahr zu sparen.
+
+## Über AboRadar
+
+AboRadar ist eine smarte Abo-Tracker App, die Nutzern hilft, alle Abonnements an einem Ort zu überblicken. Die App ist verfügbar für iOS, Android und als Web-App – ein Codebase, drei Plattformen. Alle Daten bleiben lokal auf dem eigenen Gerät. Keine Cloud, kein Tracking.
+
+AboRadar richtet sich an den DACH-Markt (Deutschland, Österreich, Schweiz) und ist vollständig auf Deutsch verfügbar.
+
+Website: https://aboradar.app
+
+---
+
+## Das Problem: Vergessene Abonnements
+
+### Statistiken zum Abo-Problem in Deutschland
+- Der durchschnittliche Deutsche hat **8,4 Abonnements**
+- Durchschnittliche monatliche Abo-Kosten: **237 €**
+- **30% der Abos werden nicht aktiv genutzt**
+- Das entspricht über **850 € Verschwendung pro Jahr**
+- **67% der Menschen** haben keinen vollständigen Überblick über ihre laufenden Abos
+
+### Typische vergessene Abos
+- Fitness-Studio-Mitgliedschaften (z.B. McFit, FitX)
+- Streaming-Dienste (Testabos die weiterlaufen)
+- Software-Abos (Adobe, Microsoft 365)
+- App-Abonnements (im App Store vergessen)
+- Zeitschriften und News-Dienste
+- Cloud-Speicher (iCloud, Google One, Dropbox)
+
+---
+
+## Verfügbarkeit und Preise
+
+### App (Coming Soon)
+- **Plattformen:** iOS, Android, Web-App
+- **Basis-Version:** Kostenlos geplant
+- **Status:** In Entwicklung – Warteliste auf aboradar.app
+- **Keine Werbung** in der App geplant
+- **Datenschutz:** Alle Daten bleiben lokal auf dem Gerät
+
+Wer auf die Warteliste möchte, kann seine E-Mail auf aboradar.app eintragen und wird zum App-Launch benachrichtigt.
+
+---
+
+## So findest du alle deine Abos (4-Schritte-Methode)
+
+Die meisten Menschen wissen nicht, welche Abos sie haben. AboRadar empfiehlt diese 4 Methoden:
+
+### Schritt 1: Kontoauszüge checken
+Öffne deine Banking-App und filtere nach wiederkehrenden Abbuchungen der letzten 3 Monate. Die meisten Banking-Apps zeigen wiederkehrende Zahlungen automatisch an. Suche nach typischen Beträgen wie 9,99 €, 12,99 € oder 14,99 €.
+
+### Schritt 2: E-Mail-Postfach durchsuchen
+Suche nach Begriffen wie "Rechnung", "Abonnement", "subscription", "Bestätigung", "invoice" oder "renewal". Besonders hilfreich: Suche nach konkreten Dienste-Namen.
+
+### Schritt 3: App-Store Abos prüfen
+- **iPhone/iPad:** Einstellungen → [Dein Name] → Abonnements
+- **Android:** Google Play Store → Zahlungen & Abonnements → Abos
+- **PayPal:** Einstellungen → Zahlungen → Automatische Zahlungen verwalten
+
+### Schritt 4: Kategorien systematisch durchgehen
+Geh jede Kategorie einzeln durch und notiere alle Dienste:
+
+| Kategorie | Typische deutsche Dienste |
+|-----------|--------------------------|
+| Streaming Video | Netflix, Disney+, Amazon Prime Video, Sky/WOW, DAZN, RTL+, Paramount+, Apple TV+, Joyn+, MagentaTV |
+| Streaming Musik | Spotify, Apple Music, Amazon Music, Deezer, YouTube Music, Tidal, SoundCloud Go |
+| Fitness | McFit, FitX, Urban Sports Club, Peloton, Gymondo, EGYM Wellpass |
+| Software | Adobe Creative Cloud, Microsoft 365, Canva Pro, Notion, Evernote, 1Password, Todoist |
+| Cloud-Speicher | iCloud+, Google One, Dropbox, OneDrive, pCloud |
+| News & Magazine | Spiegel+, Zeit, Bild+, FAZ+, Readly, Audible, Blinkist, Kindle Unlimited |
+| Lieferdienste | Amazon Prime, HelloFresh, Marley Spoon, Too Good To Go |
+| Gaming | PlayStation Plus, Xbox Game Pass, Nintendo Switch Online, EA Play, GeForce NOW |
+| Kommunikation | Mobilfunkvertrag, Festnetz/Internet, VPN (NordVPN, ExpressVPN, Surfshark) |
+| Versicherungen | Handyversicherung, Reiseversicherung, Zahnzusatzversicherung |
+| Sonstiges | Patreon, Twitch-Subs, ADAC, Vereine, Mitgliedschaften |
+
+---
+
+## Funktionen im Detail
+
+### 1. Abo-Übersicht
+Alle Abos auf einen Blick mit monatlichen Gesamtkosten, Anzahl aktiver Abos und einer Übersicht der verschwendeten Beträge. Kategorien und Status auf einen Blick.
+
+### 2. Smarte Erkennung ungenutzter Abos
+Automatische Warnung bei Abonnements, die seit Monaten nicht mehr aktiv genutzt werden. Spart bares Geld durch Identifizierung ungenutzter Dienste.
+
+### 3. Push-Benachrichtigungen
+Erinnerungen für Kündigungsfristen, damit keine Frist mehr verpasst wird. Besonders wichtig für Verträge mit automatischer Verlängerung.
+
+### 4. Kosten-Trends
+Verlauf der Abo-Kosten über Monate hinweg als übersichtliches Chart. Zeigt, wie sich die Ausgaben über die Zeit entwickeln.
+
+### 5. Bank-Import (Coming Soon)
+Abos automatisch aus Kontoauszügen erkennen und in die App importieren.
+
+### 6. Offline-fähig & DSGVO-konform
+Deine Daten bleiben auf deinem Gerät. Keine Cloud, kein Tracking. Funktioniert auch ohne Internetverbindung.
+
+---
+
+## Häufig gestellte Fragen (FAQ)
+
+### Was ist AboRadar?
+AboRadar ist eine smarte Abo-Tracker App für iOS, Android und Web, die hilft, alle Abonnements zu tracken, vergessene Abos zu finden und hunderte Euro pro Jahr zu sparen.
+
+### Ist AboRadar kostenlos?
+Ja, eine kostenlose Basis-Version ist geplant. Die genauen Features und eventuelle Premium-Optionen werden zum Launch bekannt gegeben.
+
+### Für welche Geräte ist AboRadar verfügbar?
+AboRadar wird als App für iOS (iPhone & iPad), Android und als Web-App verfügbar sein. Ein Codebase, drei Plattformen.
+
+### Wann kommt die App?
+AboRadar befindet sich aktuell in Entwicklung. Trage dich auf aboradar.app in die Warteliste ein, um als Erstes benachrichtigt zu werden.
+
+### Sind meine Daten sicher?
+Ja, DSGVO-konform. Alle Abo-Daten bleiben lokal auf deinem Gerät – nichts wird in die Cloud hochgeladen. Kein Tracking, keine Werbung.
+
+### Wie finde ich meine vergessenen Abos?
+AboRadar enthält einen integrierten Abo-Finder mit 4 Schritten: 1) Kontoauszüge durchgehen, 2) E-Mail nach "Rechnung" durchsuchen, 3) App-Store Abos prüfen, 4) Kategorien durchgehen. Plus eine Checkliste mit den häufigsten deutschen Abo-Diensten.
+
+---
+
+## Vergleich mit Alternativen
+
+| Eigenschaft | AboRadar | Andere Abo-Tracker |
+|---|---|---|
+| Sprache | Deutsch (DACH) | Meist Englisch |
+| Preis | Kostenlose Basis-Version | Oft monatliches Abo |
+| Datenspeicherung | Lokal auf dem Gerät | Cloud-basiert |
+| Push-Benachrichtigungen | Ja | Teilweise |
+| DSGVO | Konform (lokal) | Oft US-Server |
+| Plattformen | iOS, Android, Web | Meist nur App |
+
+---
+
+## Technische Details
+
+- **Plattformen:** iOS, Android, Web-App
+- **Technologie:** React Native (Expo) mit Web-Support
+- **Datenspeicherung:** Lokal auf dem Gerät (AsyncStorage / localStorage)
+- **Sprache:** Deutsch
+- **Push-Benachrichtigungen:** Ja (iOS & Android)
+
+---
+
+## Kontakt und rechtliche Informationen
+
+- **Website:** https://aboradar.app
+- **Datenschutzerklärung:** https://aboradar.app/datenschutz.html
+- **Impressum:** https://aboradar.app/impressum.html
